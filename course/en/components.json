@@ -698,5 +698,317 @@
             "_isEnabled": true,
             "_isCompletionIndicatorEnabled": true
         }
+    },
+    {
+        "_id": "q-Meetings-01",
+        "_parentId": "b-Meeting-Quizzes-36",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 1",
+        "displayTitle": "Question 1",
+        "body": "How do I decide whether my new event should be a Meeting?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "The event is restricted, only the participants should be able to know its existence",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "There are multiple contributions, speakers, minutes, materials",
+            "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! Any type of event can have restrictions."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Meetings-02",
+        "_parentId": "b-Meeting-Quizzes-36",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 2",
+        "displayTitle": "Question 2",
+        "body": "My event lasts for a week. How do I set time-slots for >1 days?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "Create a Conference instead",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "Invoke a calendar",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "Open a SNOW request",
+            "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! Events that last for two or more consecutive days fall under the conference category."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Conferences-01",
+        "_parentId": "b-Conference-Quizzes-37",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 1",
+        "displayTitle": "Question 1",
+        "body": "What is a track in Indico?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "A part of an Indico Conference programme",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "A level of approval of an Abstract",
+            "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! Tracks represent the subject matter of the conference. Each track is a part of the programme."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Conferences-02",
+        "_parentId": "b-Conference-Quizzes-37",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 2",
+        "displayTitle": "Question 2",
+        "body": "Who decides when I can submit my Abstract?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "The event manager, who sets the opening <em>date</em>",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "Myself, abstracts are submitted by email",
+            "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! Abstract submission is enabled by the event manager, who sets the opening date. Once submission is open, abstracts are submitted through Indico."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Conferences-03",
+        "_parentId": "b-Conference-Quizzes-37",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 2,
+        "title": "Question 3",
+        "displayTitle": "Question 3",
+        "body": "How do I know if my Abstract is successfully submitted?",
+        "instruction": "Choose one or more options and select Submit.",
+        "_items": [
+            {
+            "text": "I get an email notification",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "I can see it from the Indico event",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "I won't know till 4 weeks before the conference",
+            "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! When an abstract is successfully submitted the submitter will be informed by email or can check the submission status from the Indico event."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Conferences-04",
+        "_parentId": "b-Conference-Quizzes-37",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 4",
+        "displayTitle": "Question 4",
+        "body": "My conference is free-of-charge. Do I need to configure payment anyway?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "Yes",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "No",
+            "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! Payment configuration is optional."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Conferences-05",
+        "_parentId": "b-Conference-Quizzes-37",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 5",
+        "displayTitle": "Question 5",
+        "body": "How do I control who will register for my conference?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "I configure it as <em>Moderated</em>",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "I expect an email in addition to online registration",
+            "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct! By enabling <em>Moderated</em> the manager has to approve any registration first.",
+            "_incorrect": {
+            "final": "That’s not right! By enabling <em>Moderated</em> the manager has to approve any registration first."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Conferences-06",
+        "_parentId": "b-Conference-Quizzes-37",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 6",
+        "displayTitle": "Question 6",
+        "body": "How do people find out about the existence of my upcoming conference?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "I put the event in facebook",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "I configure Indico invitations",
+            "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct! By configuring indico invitations the manager can send customizable emails to participants via Indico.",
+            "_incorrect": {
+            "final": "That’s not right! By configuring indico invitations the manager can send customizable emails to participants via Indico."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
     }
 ]
