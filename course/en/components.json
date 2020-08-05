@@ -1010,5 +1010,127 @@
             "_isEnabled": true,
             "_isCompletionIndicatorEnabled": true
         }
+    },
+    {
+        "_id": "q-Room-Booking-01",
+        "_parentId": "b-Room-Booking-Quizzes-38",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 1",
+        "displayTitle": "Question 1",
+        "body": "Can I book the same room for a year?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "Yes, if it doesn't have an <em>owner</em>",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "Yes, but you'll be prompted to cancel, if you don't use it",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "No, it is unfair to the others, we lack rooms",
+            "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right!"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Room-Booking-02",
+        "_parentId": "b-Room-Booking-Quizzes-38",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 2",
+        "displayTitle": "Question 2",
+        "body": "I absolutely need a given room, which is taken. Can I override the other person's booking?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "No, you have to negotiate offline",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "Yes, just click on it and make your booking",
+            "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right!"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Room-Booking-03",
+        "_parentId": "b-Room-Booking-Quizzes-38",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 3",
+        "displayTitle": "Question 3",
+        "body": "How do I find out if there is a way to <em>connect remotely</em> to a given room?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "I have to select the rooms' subset according to the <em>Equipment</em> I need",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "All rooms at CERN are fully equipped",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "If the room is bare, the audiovisual support will bring what is needed",
+            "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right!"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
     }
 ]
