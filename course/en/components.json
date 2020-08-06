@@ -1092,8 +1092,88 @@
         }
     },
     {
-        "_id": "q-Room-Booking-03",
-        "_parentId": "b-Room-Booking-Quizzes-38",
+        "_id": "q-Survey-01",
+        "_parentId": "b-Survey-Quizzes-39",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 1",
+        "displayTitle": "Question 1",
+        "body": "Can I create a <em>Survey</em> without association to an event?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "Yes",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "No",
+            "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! Surveys are part of the event organization."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Survey-02",
+        "_parentId": "b-Survey-Quizzes-39",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 2",
+        "displayTitle": "Question 2",
+        "body": "I need to decide based on the vote of the first 10 participants. How can I achieve that?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "<em>Limit</em> the submissions you'll accept",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "Watch the survey and close it when 10 people have filled it",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "Leave it open as long as you want, just use the first 10 records of results",
+            "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right!"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Survey-03",
+        "_parentId": "b-Survey-Quizzes-39",
         "_type": "component",
         "_component": "mcq",
         "_classes": "",
@@ -1105,19 +1185,19 @@
         "_selectable": 1,
         "title": "Question 3",
         "displayTitle": "Question 3",
-        "body": "How do I find out if there is a way to <em>connect remotely</em> to a given room?",
+        "body": "I forgot a question in my <em>Survey</em> and now people have already started voting. What can I do?",
         "instruction": "Choose one option and select Submit.",
         "_items": [
             {
-            "text": "I have to select the rooms' subset according to the <em>Equipment</em> I need",
-            "_shouldBeSelected": true
-            },
-            {
-            "text": "All rooms at CERN are fully equipped",
+            "text": "<em>Limit</em> the submissions you'll accept",
             "_shouldBeSelected": false
             },
             {
-            "text": "If the room is bare, the audiovisual support will bring what is needed",
+            "text": "Watch the survey and close it when 10 people have filled it",
+            "_shouldBeSelected": true
+            },
+            {
+            "text": "Leave it open as long as you want, just use the first 10 records of results",
             "_shouldBeSelected": false
             }
         ],
@@ -1126,6 +1206,82 @@
             "correct": "That’s correct!",
             "_incorrect": {
             "final": "That’s not right!"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Other-Recording-01",
+        "_parentId": "b-Other-Recording-Quizzes-40",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 1",
+        "displayTitle": "Question 1",
+        "body": "How do I request a recording for my Conference or Meeting?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "Make the request under the Logistics tab right away",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "Make the request only after creating a contribution",
+            "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! If the event is a Conference or a Meeting you have to make sure there is a contribution created first. For Lectures you can make the request right away."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_isCompletionIndicatorEnabled": true
+        }
+    },
+    {
+        "_id": "q-Other-Recording-02",
+        "_parentId": "b-Other-Recording-Quizzes-40",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Question 2",
+        "displayTitle": "Question 2",
+        "body": "I asked for recording but the link to the video never showed up on my event page. Why?",
+        "instruction": "Choose one option and select Submit.",
+        "_items": [
+            {
+            "text": "Somebody forgot to include it",
+            "_shouldBeSelected": false
+            },
+            {
+            "text": "The speaker didn't sign the <em>Recording Agreement</em> form",
+            "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": "That’s correct!",
+            "_incorrect": {
+            "final": "That’s not right! If the recording request has been approved and all speakers have signed the <em>Recording Agreement</em> form the video link shows up on the event page."
             }
         },
         "_pageLevelProgress": {

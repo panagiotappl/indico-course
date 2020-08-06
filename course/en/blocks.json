@@ -416,5 +416,27 @@
         "body": "",
         "instruction": "",
         "_trackingId": 38
+    },
+    {
+        "_id": "b-Survey-Quizzes-39",
+        "_parentId": "a-Event-Surveys",
+        "_type": "block",
+        "_classes": "",
+        "title": "Event Survey related questionnaire",
+        "displayTitle": "Event Survey related questionnaire",
+        "body": "",
+        "instruction": "",
+        "_trackingId": 39
+    },
+    {
+        "_id": "b-Other-Recording-Quizzes-40",
+        "_parentId": "a-Other-features",
+        "_type": "block",
+        "_classes": "",
+        "title": "Webcast/Recording related questionnaire",
+        "displayTitle": "Webcast/Recording related questionnaire",
+        "body": "",
+        "instruction": "",
+        "_trackingId": 40
     }
 ]
